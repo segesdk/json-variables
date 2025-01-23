@@ -12,7 +12,7 @@ jobs:
       shell: pwsh
       run: ./test/run.ps1
     - name: Publish Unit Test Results
-      uses: EnricoMi/publish-unit-test-result-action@dc4b2f22e07d0995dffe65daf902598f695e8827
+      uses: EnricoMi/publish-unit-test-result-action@v2
       with:
         files: testresult.xml
   
